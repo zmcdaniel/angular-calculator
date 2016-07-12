@@ -32,3 +32,9 @@ For an example of how the calculator should function see the built in OSX calcul
 * Add decimal point button
 * Add a positive / negative button
 * Add memory / recall buttons
+
+---
+
+## Licensing
+1. All content is licensed under a CC-BY-NC-SA 4.0 license.
+2. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
