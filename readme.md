@@ -2,6 +2,14 @@
 
 Your goal is to create a calculator using Angular. Starter code has been provided for you.
 
+## Getting Started
+
+* Fork and clone this repository
+* Run `npm install` to install dependencies
+  * `npm start` to run the BrowserSync server
+  * `npm run lint:js` to lint your JS
+  * `npm run lint:css` to lint your CSS
+
 **The calculator should function as follows:**
 
 * Calculator should start with a 0 value
@@ -14,19 +22,18 @@ Your goal is to create a calculator using Angular. Starter code has been provide
 * If a number is entered without an operator being pressed first it should clear the screen / memory and that new number should become the running total
 * Pressing clear should revert it back to 0
 
-
 For an example of how the calculator should function see the built in OSX calculator (go to spotlight search CMD+SPACE, "calculator", and hit enter)
 
 ##Suggested Process
 
 * Add ng-app / module (test with console.log)
 * Add ng-controller / controller (test with console.log)
-* Bind display to $scope variable
+* Bind display to `$scope` variable
 * Get buttons to update display
 * Get clear button to clear display
 * Work on getting operators working
 
-##Bonus
+##Bonuses
 
 * Highlight the active operator key using `ng-class`
 * Add decimal point button
