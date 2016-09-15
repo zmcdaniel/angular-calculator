@@ -4,53 +4,55 @@ var calc = angular.module("SimpleCalc", []);
 
 calc.controller('HomeCtrl', ['$scope', function($scope) {
 
-    $scope.result = '0';
+    $scope.displayNumber = '';
+    $scope.number = 0;
     $scope.toCalculate = [];
+    $scope.operator = '';
 
     $scope.zeroButton = function() {
-        console.log('0');
-        $scope.result = '0' + $scope.result;
+        console.log(displayNumber);
+        $scope.displayNumber = '0' + $scope.displayNumber;
     }
     $scope.oneButton = function() {
-        console.log('1');
-        $scope.result = '1' + $scope.result;
+        console.log(displayNumber);
+        $scope.displayNumber = '1' + $scope.displayNumber;
     }
     $scope.twoButton = function() {
         console.log('2');
-        $scope.result = '2' + $scope.result;
+        $scope.displayNumber = '2' + $scope.displayNumber;
     }
     $scope.threeButton = function() {
         console.log('3');
-        $scope.result = '3' + $scope.result;
+        $scope.displayNumber = '3' + $scope.displayNumber;
     }
     $scope.fourButton = function() {
         console.log('4');
-        $scope.result = '4' + $scope.result;
+        $scope.displayNumber = '4' + $scope.displayNumber;
     }
     $scope.fiveButton = function() {
         console.log('5');
-        $scope.result = '5' + $scope.result;
+        $scope.displayNumber = '5' + $scope.displayNumber;
     }
     $scope.sixButton = function() {
         console.log('6');
-        $scope.result = '6' + $scope.result;
+        $scope.displayNumber = '6' + $scope.displayNumber;
     }
     $scope.sevenButton = function() {
         console.log('7');
-        $scope.result = '7' + $scope.result;
+        $scope.displayNumber = '7' + $scope.displayNumber;
     }
     $scope.eightButton = function() {
         console.log('8');
-        $scope.result = '8' + $scope.result;
+        $scope.displayNumber = '8' + $scope.displayNumber;
     }
     $scope.nineButton = function() {
         console.log('9');
-        $scope.result = '9' + $scope.result;
+        $scope.displayNumber = '9' + $scope.displayNumber;
     }
 
     $scope.clearButton = function() {
         console.log('Clearing');
-        $scope.result = '0';
+        $scope.displayNumber = '0';
     }
 
     $scope.addButton = function() {
